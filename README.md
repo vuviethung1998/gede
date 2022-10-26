@@ -7,7 +7,7 @@ Project for unsupervised prediction in spatial
 
 ## Run model
 ```
-conda activate longnd
+pip install -r requirements.txt
 ```
 ```
 bash train.sh
