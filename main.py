@@ -139,13 +139,9 @@ if __name__ == "__main__":
     args.features = args.features.split(",")
     args.idx_climate = len(args.features)
     if args.dataset == "uk":
-        file_path = "./data/uk_AQ/"
+        file_path = "./data/uk/"
     elif args.dataset == "beijing":
-        file_path = "./data/beijing_AQ/"
-    elif args.dataset == "hanoi":
-        file_path = "./data/AQ_hanoi/"
-        args.climate_features = ["humidity", "temperature"]
-        args.use_wind = False  # Hanoi has no wind data
+        file_path = "./data/beijing/"
     if args.use_wind:
         args.climate_features = [
             "2m_temperature",
