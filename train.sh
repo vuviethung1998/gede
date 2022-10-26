@@ -1,0 +1,1 @@
+python main.py --input_dim 9 --name stdgi_wnocnn_pm --checkpoint_decoder decoder_wnocnn_pm --checkpoint_stdgi stdgi_wnocnn_pm --dataset=uk
